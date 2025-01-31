@@ -23,16 +23,16 @@
     background-color: black; /*black background color*/
 }
 
-.navbar a {
+.navbarmain a {
     float: left; /*keeps links side by side*/
     display: block; /*change display to block*/
     color: floralwhite; /*white text color*/
     text-align: center; /*center the text*/
-    padding: 14px 20px; /*add some padding*/
+    padding: 20px 25px; /*add some padding*/
     text-decoration: none; /*remove underline*/
 }
 
-.navbar a.hover {
+.navbarmain a.hover {
     background-color: darkgray; /*gray background color*/
     color: black; /*black text color*/
 }
