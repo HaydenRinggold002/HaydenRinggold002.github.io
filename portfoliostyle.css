@@ -1,11 +1,12 @@
 ﻿body {
+    margin: 0;
     font-family: Courier New, Courier, monospace
 }
 .headermain {
     padding: 100px;
     text-align: center; /* centers the text */
     background: #9212ca /* background color purple */;
-    color: black /* black text color */;
+    color: floralwhite /* black text color */;
 }
 
 .headermain h1 {
