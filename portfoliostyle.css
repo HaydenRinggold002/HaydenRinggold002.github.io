@@ -2,10 +2,9 @@
     font-family: Courier New, Courier, monospace
 }
 .headermain {
-    padding: 80px; /* padding */
     text-align: center; /* centers the text */
     background: #9212ca /* background color purple */;
-    color: floralwhite /* white text color */;
+    color: black /* white text color */;
 }
 
 .headermain h1 {
