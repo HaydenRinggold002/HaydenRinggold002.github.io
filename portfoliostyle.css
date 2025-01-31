@@ -1,0 +1,13 @@
+﻿body
+{
+}
+.header {
+    padding: 80px; /* padding */
+    text-align: center; /* centers the text */
+    background: #9212ca /* background color purple */;
+    color: floralwhite /* white text color */;
+}
+
+.header h1 {
+    font-size: 40px;
+}
