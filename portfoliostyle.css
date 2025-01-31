@@ -2,17 +2,37 @@
     margin: 0;
     font-family: Courier New, Courier, monospace
 }
+
 .headermain {
     padding: 80px;
-    text-align: center; /* centers the text */
-    background: #9212ca /* background color purple */;
-    color: floralwhite /* black text color */;
+    text-align: center; /*center the text*/
+    background: #9212ca /*background color purple*/;
+    color: floralwhite /*white text color*/;
 }
 
 .headermain h1 {
-    font-size: 40px;
+    font-size: 40px; /*make the header font size larger*/
 }
 
 .headermain p {
-    font-size: 18px;
+    font-size: 18px; /*make the paragraph font size larger*/
+}
+
+.navbarmain {
+    overflow: hidden; /*hide overflow*/
+    background-color: black; /*black background color*/
+}
+
+.navbar a {
+    float: left; /*keeps links side by side*/
+    display: block; /*change display to block*/
+    color: floralwhite; /*white text color*/
+    text-align: center; /*center the text*/
+    padding: 14px 20px; /*add some padding*/
+    text-decoration: none; /*remove underline*/
+}
+
+.navbar a.hover {
+    background-color: darkgray; /*gray background color*/
+    color: black; /*black text color*/
 }
