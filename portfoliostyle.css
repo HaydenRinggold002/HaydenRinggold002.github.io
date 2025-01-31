@@ -18,12 +18,12 @@
     font-size: 18px; /*make the paragraph font size larger*/
 }
 
-.navbarmain {
+.navbar {
     overflow: hidden; /*hide overflow*/
     background-color: black; /*black background color*/
 }
 
-.navbarmain a {
+.navbar a {
     float: left; /*keeps links side by side*/
     display: block; /*change display to block*/
     color: floralwhite; /*white text color*/
@@ -32,7 +32,7 @@
     text-decoration: none; /*remove underline*/
 }
 
-.navbarmain a.hover {
+.navbar a.hover {
     background-color: darkgray; /*gray background color*/
     color: black; /*black text color*/
 }
