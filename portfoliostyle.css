@@ -32,7 +32,7 @@
     text-decoration: none; /*remove underline*/
 }
 
-.navbar a.hover {
+.navbar a:hover {
     background-color: darkgray; /*gray background color*/
     color: black; /*black text color*/
 }
