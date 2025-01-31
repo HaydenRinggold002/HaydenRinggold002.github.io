@@ -4,9 +4,13 @@
 .headermain {
     text-align: center; /* centers the text */
     background: #9212ca /* background color purple */;
-    color: black /* white text color */;
+    color: black /* black text color */;
 }
 
 .headermain h1 {
     font-size: 40px;
+}
+
+.headermain p {
+    font-size: 18px;
 }
