@@ -1,10 +1,9 @@
 ﻿body {
-    padding: 0;
+    margin: 0;
     font-family: Courier New, Courier, monospace
 }
 
 .headermain {
-    margin: 0px;
     padding: 80px;
     text-align: center; /*center the text*/
     background: #69178d /*background color purple*/;
@@ -20,7 +19,6 @@
 }
 
 .navbar {
-    margin: 0px;
     overflow: hidden; /*hide overflow*/
     background-color: black; /*black background color*/
 }
@@ -37,4 +35,12 @@
 .navbar a:hover {
     background-color: darkgray; /*gray background color*/
     color: black; /*black text color*/
+}
+
+h2 {
+    margin: 15px;
+}
+
+p {
+    margin: 15px;
 }
