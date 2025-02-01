@@ -3,7 +3,7 @@
 }
 
 .headermain {
-    margin: 0;
+    margin: 0px;
     padding: 80px;
     text-align: center; /*center the text*/
     background: #69178d /*background color purple*/;
@@ -19,7 +19,7 @@
 }
 
 .navbar {
-    margin: 0;
+    margin: 0px;
     overflow: hidden; /*hide overflow*/
     background-color: black; /*black background color*/
 }
