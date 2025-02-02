@@ -8,7 +8,7 @@
     padding: 80px;
     text-align: center; /*center the text*/
     background: darkblue /*background color gray*/;
-    color: floralwhite /*dark blue text color*/;
+    color: floralwhite /*white text color*/;
 }
 
 .headermain h1 {
@@ -16,6 +16,7 @@
 }
 
 .headermain p {
+    color: black;
     font-size: 18px; /*make the paragraph font size larger*/
 }
 
@@ -57,9 +58,20 @@ img {
     margin: 15px;
 }
 
-footer {
+.footer {
     padding: 80px;
     background: black;
     text-align: center;
     color: floralwhite;
+}
+
+.footer a{
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    color: floralwhite;
+}
+
+.footer a:hover {
+    color: lightgray;
 }
