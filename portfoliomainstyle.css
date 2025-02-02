@@ -52,6 +52,14 @@ p {
     color: black;
     margin: 15px;
 }
+
 img {
     margin: 15px;
+}
+
+footer {
+    padding: 80px;
+    background: black;
+    text-align: center;
+    color: floralwhite;
 }
