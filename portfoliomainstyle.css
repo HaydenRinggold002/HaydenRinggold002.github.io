@@ -1,13 +1,14 @@
 ﻿body {
     margin: 0;
-    font-family: Courier New, Courier, monospace
+    font-family: Courier New, Georgia, monospace;
+    background: lightgray;
 }
 
 .headermain {
     padding: 80px;
     text-align: center; /*center the text*/
-    background: #6f6e6e /*background color gray*/;
-    color: #031ba8 /*dark blue text color*/;
+    background: darkblue /*background color gray*/;
+    color: floralwhite /*dark blue text color*/;
 }
 
 .headermain h1 {
@@ -38,9 +39,19 @@
 }
 
 h2 {
+    color: dodgerblue;
+    margin: 15px;
+}
+
+h3 {
+    color: dodgerblue;
     margin: 15px;
 }
 
 p {
+    color: floralwhite;
+    margin: 15px;
+}
+img {
     margin: 15px;
 }
