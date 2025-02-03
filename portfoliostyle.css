@@ -95,13 +95,10 @@ img {
     color: darkgray;
 }
 
-.button {
-    background-color: cornflowerblue;
-    border: thin;
-    padding-block: 20px;
-    display:inline-block
-}
-
-.webdev {
-    border-radius: 100%;
+.button-webdev {
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+    background-image: url("/images/web-development.png");
+    border-radius: 50%;
 }
