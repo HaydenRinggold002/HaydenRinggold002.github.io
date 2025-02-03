@@ -99,6 +99,8 @@ button {
     width: 100px;
     height: 100px;
     background-color: dodgerblue;
+    border: solid;
+    border-color: darkgray;
     border-radius: 50%;
 }
 
