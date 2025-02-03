@@ -94,3 +94,14 @@ img {
 .footer a:hover {
     color: darkgray;
 }
+
+.button {
+    background-color: cornflowerblue;
+    border: thin;
+    padding-block: 20px;
+    display:inline-block
+}
+
+.webdev {
+    border-radius: 100%;
+}
