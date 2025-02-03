@@ -39,18 +39,25 @@
     color: black; /*black text color*/
 }
 
-.aboutmecontainer {
-    display: flex;
-}
+@media only screen and (min-width: 1321px) {
 
-.aboutmecontainer img {
-    max-width: 100%;
-    max-height: 100%;
-}
+    .aboutmecontainer {
+        display: flex;
+        text-align: center;
+    }
 
-.aboutmecontainer p {
-    padding-left: 15px;
-    text-align: right;
+        .aboutmecontainer img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .aboutmecontainer p {
+            padding-top: 200px;
+            padding-right: 50px;
+            padding-left: 10px;
+        }
+
+    text-align: center;
 }
 
 h2 {
