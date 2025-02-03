@@ -95,10 +95,13 @@ img {
     color: darkgray;
 }
 
-.button-webdev {
+button {
     width: 100px;
     height: 100px;
-    background-color: deepskyblue;
-    background-image: url("/images/web-development.png");
+    background-color: dodgerblue;
     border-radius: 50%;
+}
+
+.button-webdev {
+    background-image: url("/images/web-development.png");
 }
