@@ -39,6 +39,20 @@
     color: black; /*black text color*/
 }
 
+.aboutmecontainer {
+    display: flex;
+}
+
+.aboutmecontainer img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.aboutmecontainer p {
+    padding-left: 15px;
+    text-align: right;
+}
+
 h2 {
     color: dodgerblue;
     margin: 15px;
