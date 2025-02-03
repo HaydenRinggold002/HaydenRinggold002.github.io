@@ -20,12 +20,12 @@
     font-size: 18px; /*make the paragraph font size larger*/
 }
 
-.navbar {
+.navbarmain {
     overflow: hidden; /*hide overflow*/
     background-color: black; /*black background color*/
 }
 
-.navbar a {
+.navbarmain a {
     float: left; /*keeps links side by side*/
     display: block; /*change display to block*/
     color: floralwhite; /*white text color*/
@@ -34,7 +34,7 @@
     text-decoration: none; /*remove underline*/
 }
 
-.navbar a:hover {
+.navbarmain a:hover {
     background-color: darkgray; /*gray background color*/
     color: black; /*black text color*/
 }
@@ -63,17 +63,15 @@ img {
     background: black;
     text-align: center;
     color: floralwhite;
-    align-content: center;
 }
 
 .footer a{
     padding: 20px;
     text-decoration: none;
-    float: left;
     text-align: center;
     color: floralwhite;
 }
 
 .footer a:hover {
-    color: lightgray;
+    color: darkgray;
 }
