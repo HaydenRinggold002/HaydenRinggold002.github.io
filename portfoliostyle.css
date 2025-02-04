@@ -108,7 +108,7 @@ button {
     background-image: url("/images/web-development.png");
 }
 
-@media only screen and (min-width: 1321 px) {
+@media only screen and (min-width: 1321px) {
     .buttoncontainer {
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -118,12 +118,17 @@ button {
     }
 }
 
-.button-container {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    align-content: center;
+/*
+@medai only screen and (max-width: 1320px) {
+
+    .button-container {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-content: center;
+    }
 }
+*/
 
 .buttoncontainer h4 {
     text-align: center;
