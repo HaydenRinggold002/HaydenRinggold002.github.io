@@ -115,3 +115,11 @@ button {
     justify-content: space-evenly;
     align-content: center;
 }
+
+.buttoncontainer h4 {
+    text-align: center;
+}
+
+.buttoncontainer button {
+    padding-block: 50px;
+}
