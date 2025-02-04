@@ -105,35 +105,35 @@ img {
 
 /*adds images to all the buttons in project hub*/
 .button-webdev {
-    background-image: src("/images/web-development.png")
+    background-image: url("/images/web-development.png")
 }
 
 .button-appdev {
-    background-image: src("/images/SWE.png");
+    background-image: url("/images/SWE.png");
 }
 
 .button-gamedev {
-    background-image: src("/images/game-development.png");
+    background-image: url("/images/game-development.png");
 }
 
 .button-datasci {
-    background-image: src("/images/datasci.png");
+    background-image: url("/images/datasci.png");
 }
 
 .button-systems {
-    background-image: src("/images/sysprogramming.png");
+    background-image: url("/images/sysprogramming.png");
 }
 
 .button-mobiledev {
-    background-image: src("images/mobiledev.png");
+    background-image: url("images/mobiledev.png");
 }
 
 .button-devops {
-    background-image: src("images/devops.png");
+    background-image: url("images/devops.png");
 }
 
 .button-cybersec {
-    background-image: src("images/csec.png");
+    background-image: url("images/csec.png");
 }
 
 /*places the buttons properly on a desktop*/
