@@ -49,6 +49,7 @@
         .aboutmecontainer img {
             max-width: 100%;
             max-height: 100%;
+            border-radius: 25px;
         }
 
         .aboutmecontainer p {
@@ -119,6 +120,41 @@ button {
         align-content: center;
     }
 
+    .buttoncontainer button {
+        position: relative;
+    }
+
+    .button-webdevcontainer button {
+        left: 25%;
+    }
+
+    .button-appdevcontainer button {
+        left: 30%;
+    }
+
+    .button-gamedevcontainer button {
+        left: 20%;
+    }
+
+    .button-datascicontainer button {
+        left: 13%;
+    }
+
+    .button-systemscontainer button {
+        left: 25%;
+    }
+
+    .button-mobiledevcontainer button {
+        left: 29%
+    }
+
+    .button-devopscontainer button {
+        left: 22%
+    }
+
+    .button-cyberseccontainer button {
+        left: 15%;
+    }
 }
 
 @media only screen and (max-width: 1320px) {
@@ -132,17 +168,54 @@ button {
         align-content: center;
     }
 
+    .buttoncontainer button {
+        position: relative;
+    }
+
+    .button-webdevcontainer button {
+        left: 24%;
+    }
+
+    .button-appdevcontainer button {
+        left: 27%;
+    }
+
+    .button-gamedevcontainer button {
+        left: 24%;
+    }
+
+    .button-datascicontainer button {
+        left: 30%;
+    }
+
+    .button-systemscontainer button {
+        left: 25%;
+    }
+
+    .button-mobiledevcontainer button {
+        left: 29%
+    }
+
+    .button-devopscontainer button {
+        left: 26%
+    }
+
+    .button-cyberseccontainer button {
+        left: 28%;
+    }
 
 }
 
 .buttoncontainer button {
+    /*
     position: relative;
     left: 20%;
+    */
     transition: transform 0.5s ease;
 }
 
 .buttoncontainer button:hover {
-    transform: translateY(-5px);
+    transform: translateY(-25px);
     transform: scale(1.2);
 }
 
