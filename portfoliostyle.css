@@ -110,8 +110,6 @@ img {
 
 .button-appdev {
     background-image: url("/images/SWE.png");
-    background-size: 100% 100%;
-    background-clip: padding-box;
 }
 
 .button-gamedev {
@@ -149,15 +147,17 @@ img {
         align-content: center;
     }
 
-    .buttoncontainer button {
-        width: 100px;
-        height: 100px;
-        background-color: dodgerblue;
-        border: solid;
-        border-color: darkgray;
-        border-radius: 50%;
-        position: relative;
-    }
+        .buttoncontainer button {
+            width: 100px;
+            height: 100px;
+            background-color: dodgerblue;
+            border: solid;
+            border-color: darkgray;
+            border-radius: 50%;
+            position: relative;
+            background-size: 100% 100%;
+            background-clip: padding-box;
+        }
 
     .button-webdevcontainer button {
         left: 25%;
@@ -212,6 +212,8 @@ img {
             border-color: darkgray;
             border-radius: 50%;
             position: relative;
+            background-size: 100% 100%;
+            background-clip: padding-box;
         }
 
     .button-webdevcontainer button {
