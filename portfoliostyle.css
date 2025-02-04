@@ -107,3 +107,10 @@ button {
 .button-webdev {
     background-image: url("/images/web-development.png");
 }
+
+.buttoncontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-content: center;
+}
