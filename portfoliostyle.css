@@ -4,41 +4,45 @@
     background: lightgray;
 }
 
+/*header that appears at the top of each page*/
 .header {
     padding: 80px;
-    text-align: center; /*center the text*/
-    background: darkblue /*background color gray*/;
-    color: floralwhite /*white text color*/;
+    text-align: center;
+    background: darkblue;
+    color: floralwhite;
 }
 
 .header h1 {
-    font-size: 40px; /*make the header font size larger*/
+    font-size: 40px;
 }
 
 .header p {
     color: floralwhite;
-    font-size: 18px; /*make the paragraph font size larger*/
+    font-size: 18px;
 }
 
+/*navbar below header*/
 .navbar {
-    overflow: hidden; /*hide overflow*/
-    background-color: black; /*black background color*/
+    overflow: hidden;
+    background-color: black;
 }
 
+/*styling for the links on the navbar*/
 .navbar a {
     float: left; /*keeps links side by side*/
-    display: block; /*change display to block*/
-    color: floralwhite; /*white text color*/
-    text-align: center; /*center the text*/
-    padding: 20px 25px; /*add some padding*/
+    display: block; /*make links block elements*/
+    color: floralwhite;
+    text-align: center;
+    padding: 20px 25px;
     text-decoration: none; /*remove underline*/
 }
-
+/*happens when you hover over links*/
 .navbar a:hover {
     background-color: darkgray; /*gray background color*/
     color: black; /*black text color*/
 }
 
+/*places the text and the image next to each other on a desktop*/
 @media only screen and (min-width: 1321px) {
 
     .aboutmecontainer {
@@ -78,6 +82,7 @@ img {
     margin: 15px;
 }
 
+/*footer that appears at the bottom of every page*/
 .footer {
     padding: 80px;
     background: black;
@@ -85,6 +90,7 @@ img {
     color: floralwhite;
 }
 
+/*links on the footer*/
 .footer a{
     padding: 20px;
     text-decoration: none;
@@ -92,24 +98,45 @@ img {
     color: floralwhite;
 }
 
+/*happens when you hover over the links*/
 .footer a:hover {
     color: darkgray;
 }
 
-button {
-    width: 100px;
-    height: 100px;
-    background-color: dodgerblue;
-    border: solid;
-    border-color: darkgray;
-    border-radius: 50%;
-}
-
+/*adds images to all the buttons in project hub*/
 .button-webdev {
-    background-image: url("/images/web-development.png");
+    background-image: src("/images/web-development.png")
 }
 
+.button-appdev {
+    background-image: src("/images/SWE.png");
+}
 
+.button-gamedev {
+    background-image: src("/images/game-development.png");
+}
+
+.button-datasci {
+    background-image: src("/images/datasci.png");
+}
+
+.button-systems {
+    background-image: src("/images/sysprogramming.png");
+}
+
+.button-mobiledev {
+    background-image: src("images/mobiledev.png");
+}
+
+.button-devops {
+    background-image: src("images/devops.png");
+}
+
+.button-cybersec {
+    background-image: src("images/csec.png");
+}
+
+/*places the buttons properly on a desktop*/
 @media only screen and (min-width: 1321px) {
     .buttoncontainer {
         padding-top: 50px;
@@ -121,6 +148,12 @@ button {
     }
 
     .buttoncontainer button {
+        width: 100px;
+        height: 100px;
+        background-color: dodgerblue;
+        border: solid;
+        border-color: darkgray;
+        border-radius: 50%;
         position: relative;
     }
 
@@ -157,6 +190,7 @@ button {
     }
 }
 
+/*places the buttons properly on mobile*/
 @media only screen and (max-width: 1320px) {
 
     .buttoncontainer {
@@ -168,9 +202,15 @@ button {
         align-content: center;
     }
 
-    .buttoncontainer button {
-        position: relative;
-    }
+        .buttoncontainer button {
+            width: 100px;
+            height: 100px;
+            background-color: dodgerblue;
+            border: solid;
+            border-color: darkgray;
+            border-radius: 50%;
+            position: relative;
+        }
 
     .button-webdevcontainer button {
         left: 24%;
@@ -207,13 +247,10 @@ button {
 }
 
 .buttoncontainer button {
-    /*
-    position: relative;
-    left: 20%;
-    */
     transition: transform 0.5s ease;
 }
 
+/*causes the buttons to get larger and move upwards when hovered over*/
 .buttoncontainer button:hover {
     transform: translateY(-25px);
     transform: scale(1.2);
