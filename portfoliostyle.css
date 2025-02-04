@@ -4,6 +4,25 @@
     background: lightgray;
 }
 
+h2 {
+    color: dodgerblue;
+    margin: 15px;
+}
+
+h3 {
+    color: dodgerblue;
+    margin: 15px;
+}
+
+p {
+    color: black;
+    margin: 15px;
+}
+
+img {
+    margin: 15px;
+}
+
 /*header that appears at the top of each page*/
 .header {
     padding: 80px;
@@ -61,25 +80,6 @@
             padding-right: 10px;
             padding-left: 10px;
         }
-}
-
-h2 {
-    color: dodgerblue;
-    margin: 15px;
-}
-
-h3 {
-    color: dodgerblue;
-    margin: 15px;
-}
-
-p {
-    color: black;
-    margin: 15px;
-}
-
-img {
-    margin: 15px;
 }
 
 /*footer that appears at the bottom of every page*/
