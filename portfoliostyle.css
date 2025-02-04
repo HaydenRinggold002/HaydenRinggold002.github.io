@@ -108,14 +108,12 @@ button {
     background-image: url("/images/web-development.png");
 }
 
-@media only screen and (min-width: 1321px) {
-    .buttoncontainer {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        gap: 50px;
-        justify-content: center;
-        align-content: center;
-    }
+.buttoncontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
 }
 
 /*
