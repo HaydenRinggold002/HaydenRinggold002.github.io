@@ -124,6 +124,7 @@ button {
 @media only screen and (max-width: 1320px) {
 
     .buttoncontainer {
+        padding-top: 50px;
         display: grid;
         gap: 50px;
         grid-template-columns: auto auto;
@@ -137,6 +138,12 @@ button {
 .buttoncontainer button {
     position: relative;
     left: 20%;
+    transition: transform 0.5s ease;
+}
+
+.buttoncontainer button:hover {
+    transform: translateY(-5px);
+    transform: scale(1.2);
 }
 
 .buttoncontainer h4 {
