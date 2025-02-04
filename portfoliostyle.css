@@ -108,30 +108,37 @@ button {
     background-image: url("/images/web-development.png");
 }
 
-.buttoncontainer {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 50px;
-    justify-content: center;
-    align-content: center;
-}
 
-/*
-@medai only screen and (max-width: 1320px) {
-
-    .button-container {
+@media only screen and (min-width: 1321px) {
+    .buttoncontainer {
+        padding-top: 50px;
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto auto auto;
+        gap: 50px;
         justify-content: center;
         align-content: center;
     }
-}
-*/
 
-.buttoncontainer h4 {
-    text-align: center;
+}
+
+@media only screen and (max-width: 1320px) {
+
+    .buttoncontainer {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+
 }
 
 .buttoncontainer button {
-    padding-block: 50px;
+    position: relative;
+    left: 20%;
+}
+
+.buttoncontainer h4 {
+    text-align: center;
 }
