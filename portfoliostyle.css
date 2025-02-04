@@ -118,15 +118,12 @@ button {
     }
 }
 
-@media only screen and (max-width: 1320 px) {
-    .button-container {
-        display: grid;
-        grid-template-columns: auto;
-        justify-content: center;
-        align-content: center;
-    }
+.button-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
 }
-
 
 .buttoncontainer h4 {
     text-align: center;
