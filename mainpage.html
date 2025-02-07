@@ -20,14 +20,23 @@
         <p>And this is a website I created to show off my skills, projects, and achievements</p>
     </div>
 
-    <!--navbar below header-->
-    <div class="navbar">
-        <a href="#AboutMe">About Me</a>
-        <a href="#SkillsAndAchievements">Skills And Achievements</a>
-        <a href="#WorkExperience">Work Experience</a>
-        <a href="https://drive.google.com/file/d/1spAKXFKb_XQio-RXZex_wEfm2IAWXXLU/view?usp=sharing">Resume</a>
-        <a href="projecthub.html">Personal Projects</a>
+    <!--off screen menu-->
+    <div class="off-screen-menu">
+        <ul>
+            <li><a href="mainpage.html">Home</a></li>
+            <li><a href="https://drive.google.com/file/d/1spAKXFKb_XQio-RXZex_wEfm2IAWXXLU/view">Resume</a></li>
+            <li><a href="projecthub.html">Projects</a></li>
+        </ul>
     </div>
+
+    <!--hamburger menu toggles offscreen menu-->
+    <nav>
+        <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
 
     <!--About me header-->
     <h2 id="AboutMe">About Me</h2>
@@ -55,10 +64,12 @@
     <h2 id="SkillsAndAchievements">Skills And Achievements</h2>
 
     <!--SKills and Achievements Paragraph-->
-    <p>B.S. Degree in Computer Science and Cybersecurity with a 3.45 GPA<br />
-    Dean's list Fall 2024, Spring 2024, Spring 2022, Fall 2021<br />
-    C++, Java, JavaScript, HTML + CSS, Python, SQL, Git, Rust, MIPS Assembly Language, Kali Linux Tools, Object Oriented Programming<br />
-    Finished in the top 50 teams out of almost 4,000 in the Fall 2024 NCL Team Game</p>
+    <p>
+        B.S. Degree in Computer Science and Cybersecurity with a 3.45 GPA<br />
+        Dean's list Fall 2024, Spring 2024, Spring 2022, Fall 2021<br />
+        C++, Java, JavaScript, HTML + CSS, Python, SQL, Git, Rust, MIPS Assembly Language, Kali Linux Tools, Object Oriented Programming<br />
+        Finished in the top 50 teams out of almost 4,000 in the Fall 2024 NCL Team Game
+    </p>
 
     <!--Horizontal break-->
     <hr />
@@ -84,5 +95,8 @@
         <a href="mailto:haydenringgold02@gmail.com">Email</a>
         <a href="https://www.linkedin.com/in/hayden-ringgold-61b58b295/">LinkedIn</a>
     </div>
+
+    <!--js script-->
+    <script src="./menu.js"></script>
 </body>
 </html>
